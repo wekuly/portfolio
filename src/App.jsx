@@ -16,7 +16,8 @@ function App() {
   }
 
   return (
-    <BrowserRouter basename="/portfolio">
+    // <BrowserRouter basename="/portfolio">
+    <BrowserRouter>
       <div className="container">
         <div className="content">
           <Routes>
