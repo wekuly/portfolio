@@ -95,6 +95,24 @@ function Projects({ selectedItem, setSelectedItem }) {
                             <span className="tech-item"> MariaDB</span>
                         </div>
                     </div>
+                    <div className="project-item">
+                        <h3>토이 프로젝트</h3>
+                        <p className="project-period">2025.06 - 2025.08</p>
+                        <p className="project-description">
+                            - <a href="https://wekuly.github.io/cat_maker/" target="_blank" rel="noopener noreferrer">https://wekuly.github.io/cat_maker/</a> <br />
+                        </p>
+                        <p className="project-description">
+                            - <a href="https://wekuly.github.io/household/" target="_blank" rel="noopener noreferrer">https://wekuly.github.io/cat_maker/</a> <br />
+                        </p>
+                        <div className="project-tech-stack">
+                            <span className="tech-item">JavaScript</span>,
+                            <span className="tech-item"> JQuery</span>,
+                            <span className="tech-item"> PHP</span>,
+                            <span className="tech-item"> Node.js</span>,
+                            <span className="tech-item"> pm2</span>,
+                            <span className="tech-item"> MariaDB</span>
+                        </div>
+                    </div>
                 </div>
             </div>
             <ArrowButtons selectedItem={selectedItem} setSelectedItem={setSelectedItem} />

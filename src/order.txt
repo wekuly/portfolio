@@ -1,0 +1,5 @@
+라이브서버 실행 : npm run dev
+
+깃에 올리기 : 
+npm run build
+npm run deploy
