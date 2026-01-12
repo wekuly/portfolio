@@ -6,6 +6,7 @@ import Skills from './skills.jsx'
 import Projects from './projects.jsx'
 import Contact from './contact.jsx'
 import Home from './home.jsx'
+import Honest from './honest.jsx'
 
 function App() {
   const [selectedItem, setSelectedItem] = useState(null)
@@ -26,6 +27,7 @@ function App() {
             <Route path="/skills" element={<Skills selectedItem={selectedItem} setSelectedItem={setSelectedItem} />} />
             <Route path="/projects" element={<Projects selectedItem={selectedItem} setSelectedItem={setSelectedItem} />} />
             <Route path="/contact" element={<Contact selectedItem={selectedItem} setSelectedItem={setSelectedItem} />} />
+            <Route path="/honest" element={<Honest selectedItem={selectedItem} setSelectedItem={setSelectedItem} />} />
           </Routes>
         </div>
       </div>

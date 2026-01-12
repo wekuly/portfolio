@@ -14,6 +14,7 @@ function Intro({ selectedItem, setSelectedItem }) {
                 <div className="intro-details">
                     <h3>경력</h3>
                     <h2>• 부싯돌 (2022-2025)</h2>
+                    <a href="http://www.busidol.com/" target="_blank" rel="noopener noreferrer">http://www.busidol.com/</a>
                     <p className="intro-details-content">
                         자바스크립트 기반 게임 개발
 
@@ -36,8 +37,6 @@ function Intro({ selectedItem, setSelectedItem }) {
                             프론트 : JS,JQuery
                             <br />
                             백엔드 : PHP, NodeJS, Maria DB
-                            <br />
-                            를 활용 했습니다.
                             <br />
                             <br />
                             부싯돌 게임 중

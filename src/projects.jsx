@@ -1,4 +1,5 @@
 import ArrowButtons from './components/arrow.jsx'
+import './projects.css'
 function Projects({ selectedItem, setSelectedItem }) {
     return (
         <div className="wrapper">
@@ -7,6 +8,7 @@ function Projects({ selectedItem, setSelectedItem }) {
                 <div className="projects-list">
                     <div className="project-item">
                         <h3>골드 타워 디펜스</h3>
+                        <img className="project-image" src="./public/goldtower.jpg" alt="골드 타워 디펜스" />
                         <p className="project-period">2022.03 - 2025.01</p>
                         <p className="project-description">
                             골드타워 디펜스 게임 전반적 운영 및 유지보수, 업데이트
@@ -35,6 +37,7 @@ function Projects({ selectedItem, setSelectedItem }) {
 
                     <div className="project-item">
                         <h3>체스</h3>
+                        <img className="project-image" src="./public/chess.jpg" alt="체스" />
                         <p className="project-period">2022.06 - 2022.09</p>
                         <p className="project-description">
                             - LG스탠바이미 기본 게임 中 체스 개발
@@ -57,14 +60,39 @@ function Projects({ selectedItem, setSelectedItem }) {
                             <span className="tech-item"> pm2</span>,
                             <span className="tech-item"> MariaDB</span>
                         </div>
+                        <a href="https://www.youtube.com/watch?v=F-7U1shW1js" target="_blank" rel="noopener noreferrer">
+                            부싯돌 게임 소개영상
+                        </a>
                         <a href="https://www.youtube.com/watch?v=0dUzeeNhYec" target="_blank" rel="noopener noreferrer">
                             LG스탠바이미 게임 영상 (30초 이후 ~~)
                         </a>
-                        <br />
+                        <a href="https://gamedistribution.com/games/the-chess/" target="_blank" rel="noopener noreferrer">
+                            gamedistribution 링크
+                        </a>
+                    </div>
+                    <div className="project-item">
+                        <h3>Animal Hit</h3>
+                        <img className="project-image" src="./public/animalhit.jpg" alt="Animal Hit" />
+                        <p className="project-period">2022.06 - 2022.09</p>
+                        <p className="project-description">
+                            - LG스탠바이미 기본 게임 中 Animal Hit 개발
+                        </p>
+                        <div className="project-tech-stack">
+                            <span className="tech-item">JavaScript</span>,
+                            <span className="tech-item"> JQuery</span>,
+                            <span className="tech-item"> PHP</span>,
+                            <span className="tech-item"> Node.js</span>,
+                            <span className="tech-item"> pm2</span>,
+                            <span className="tech-item"> MariaDB</span>
+                        </div>
+                        <a href="https://www.youtube.com/watch?v=YPLoj8O-blQ" target="_blank" rel="noopener noreferrer">
+                            부싯돌 게임 소개영상
+                        </a>
                     </div>
 
                     <div className="project-item">
                         <h3>바둑</h3>
+                        <img className="project-image" src="./public/baduk.jpg" alt="바둑" />
                         <p className="project-period">2025.06 - 2025.08</p>
                         <p className="project-description">
                             - 프리랜서 계약 후 바둑 개발 <br />
@@ -93,25 +121,41 @@ function Projects({ selectedItem, setSelectedItem }) {
                             <span className="tech-item"> Node.js</span>,
                             <span className="tech-item"> pm2</span>,
                             <span className="tech-item"> MariaDB</span>
+                            <span className="tech-item"> Python(Katago)</span>
                         </div>
                     </div>
                     <div className="project-item">
+                        <h3>그 외</h3>
+                        <p className="project-period">2022.01 - 2025.03</p>
+                        <p className="project-description">
+                            - 맞고, 포커, 장기 ,오목 등 부싯돌 TV 게임 오류 수정 및 업데이트, 유저 데이터 DB를 활용 , 랭킹, 매칭 시스템 구현
+                            <br />
+                        </p>
+                    </div>
+                    <div className="project-item">
                         <h3>토이 프로젝트</h3>
-                        <p className="project-period">2025.06 - 2025.08</p>
+                        <p className="project-period">2025.12 - 2026.01</p>
                         <p className="project-description">
-                            - <a href="https://wekuly.github.io/cat_maker/" target="_blank" rel="noopener noreferrer">https://wekuly.github.io/cat_maker/</a> <br />
+                            <a href="https://wekuly.github.io/cat_maker/" target="_blank" rel="noopener noreferrer">고양이 짤 생성기</a> <br />
+                            <a href="https://wekuly.github.io/household/" target="_blank" rel="noopener noreferrer">간단한 가계부</a> <br />
+                            <span className="project-description-small">
+                                React
+                                <br />
+                                로컬 스토리지
+                                <br />
+                                고양이사진 api
+                            </span>
                         </p>
-                        <p className="project-description">
-                            - <a href="https://wekuly.github.io/household/" target="_blank" rel="noopener noreferrer">https://wekuly.github.io/cat_maker/</a> <br />
-                        </p>
-                        <div className="project-tech-stack">
-                            <span className="tech-item">JavaScript</span>,
-                            <span className="tech-item"> JQuery</span>,
-                            <span className="tech-item"> PHP</span>,
-                            <span className="tech-item"> Node.js</span>,
-                            <span className="tech-item"> pm2</span>,
-                            <span className="tech-item"> MariaDB</span>
-                        </div>
+                        <a href="https://github.com/wekuly/py_omok/releases/latest">
+                            Python GUI 오목 Github 링크
+                        </a>
+                        <a href="https://github.com/wekuly/py_omok/releases/download/1.0.0/main.exe">
+                            Python GUI 오목 실행파일 exe 다운로드
+                        </a>
+                        <span className="project-description-small">
+                            Python , Tkinter
+                            <br />
+                        </span>
                     </div>
                 </div>
             </div>

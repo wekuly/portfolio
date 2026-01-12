@@ -170,6 +170,7 @@ body {
 .intro-section,
 .skills-section,
 .contact-section,
+.honest-section,
 .projects-section {
   display: flex;
   flex-direction: column;

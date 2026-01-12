@@ -37,6 +37,14 @@ function Home({ selectedItem, handleItemHover, setLocation }) {
                         <Link to="/contact" onClick={() => setLocation('/contact')}>연락처</Link>
                     </div>
                 </li>
+                <li
+                    className={`table-of-contents-item ${selectedItem === 4 ? 'selected' : ''}`}
+                    onMouseOver={() => handleItemHover(4)}
+                >
+                    <div className="table-of-contents-item-content-wrapper">
+                        <Link to="/honest" onClick={() => setLocation('/honest')}>그외</Link>
+                    </div>
+                </li>
             </ul>
         </nav>
     )

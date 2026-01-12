@@ -1,7 +1,7 @@
 import { useNavigate } from "react-router-dom";
 
 function ArrowButtons({ selectedItem, setSelectedItem }) {
-    const paths = ["/intro", "/skills", "/projects", "/contact"];
+    const paths = ["/intro", "/skills", "/projects", "/contact", "/honest"];
     const navigate = useNavigate();
     return (
         <div className="arrow-buttons">

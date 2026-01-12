@@ -30,9 +30,7 @@ function Skills({ selectedItem, setSelectedItem }) {
                     <div className="skill-category">
                         <h3>기타</h3>
                         <div className="skill-items">
-                            <span className="skill-item">Git</span>,
-                            <span className="skill-item"> AWS</span>,
-                            <span className="skill-item"> Docker</span>
+                            <span className="skill-item">Python</span>
                         </div>
                     </div>
                 </div>
