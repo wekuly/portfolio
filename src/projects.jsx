@@ -1,5 +1,11 @@
 import ArrowButtons from './components/arrow.jsx'
 import './projects.css'
+
+import goldtower from './assets/goldtower.jpg'
+import chess from './assets/chess.jpg'
+import animalhit from './assets/animalhit.jpg'
+import baduk from './assets/baduk.jpg'
+
 function Projects({ selectedItem, setSelectedItem }) {
     return (
         <div className="wrapper">
@@ -8,7 +14,7 @@ function Projects({ selectedItem, setSelectedItem }) {
                 <div className="projects-list">
                     <div className="project-item">
                         <h3>골드 타워 디펜스</h3>
-                        <img className="project-image" src="./public/goldtower.jpg" alt="골드 타워 디펜스" />
+                        <img className="project-image" src={goldtower} alt="골드 타워 디펜스" />
                         <p className="project-period">2022.03 - 2025.01</p>
                         <p className="project-description">
                             골드타워 디펜스 게임 전반적 운영 및 유지보수, 업데이트
@@ -37,7 +43,7 @@ function Projects({ selectedItem, setSelectedItem }) {
 
                     <div className="project-item">
                         <h3>체스</h3>
-                        <img className="project-image" src="./public/chess.jpg" alt="체스" />
+                        <img className="project-image" src={chess} alt="체스" />
                         <p className="project-period">2022.06 - 2022.09</p>
                         <p className="project-description">
                             - LG스탠바이미 기본 게임 中 체스 개발
@@ -72,7 +78,7 @@ function Projects({ selectedItem, setSelectedItem }) {
                     </div>
                     <div className="project-item">
                         <h3>Animal Hit</h3>
-                        <img className="project-image" src="./public/animalhit.jpg" alt="Animal Hit" />
+                        <img className="project-image" src={animalhit} alt="Animal Hit" />
                         <p className="project-period">2022.06 - 2022.09</p>
                         <p className="project-description">
                             - LG스탠바이미 기본 게임 中 Animal Hit 개발
@@ -92,7 +98,7 @@ function Projects({ selectedItem, setSelectedItem }) {
 
                     <div className="project-item">
                         <h3>바둑</h3>
-                        <img className="project-image" src="./public/baduk.jpg" alt="바둑" />
+                        <img className="project-image" src={baduk} alt="바둑" />
                         <p className="project-period">2025.06 - 2025.08</p>
                         <p className="project-description">
                             - 프리랜서 계약 후 바둑 개발 <br />
