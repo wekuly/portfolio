@@ -36,3 +36,47 @@
     font-weight: 700;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
 }
+
+.project-common-title {
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: #3498db;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.project-common-subtitle {
+    font-size: 1.5rem;
+    font-weight: 900;
+    color: #3498db;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: left;
+    display: block;
+    margin-bottom: 0.4em;
+    margin-left: 0;
+}
+
+.project-common-all {
+    font-size: 0.75rem;
+    font-weight: 700;
+    color: #370909;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: left;
+    display: block;
+    margin-bottom: 0.4em;
+    margin-left: 0;
+}
+
+.project-common-all-Description-title {
+    font-size: 0.9rem;
+    font-weight: 700;
+    color: #3498db;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+
+.project-common-all-Achievements-title {
+    font-size: 0.9rem;
+    font-weight: 700;
+    color: #3498db;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+}

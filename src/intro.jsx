@@ -16,7 +16,7 @@ function Intro({ selectedItem, setSelectedItem }) {
                     <h2>• 부싯돌 (2022-2025)</h2>
                     <a href="http://www.busidol.com/" target="_blank" rel="noopener noreferrer">http://www.busidol.com/</a>
                     <p className="intro-details-content">
-                        자바스크립트 기반 게임 개발
+                        JavaScript 기반 웹 게임 풀스택 메인 개발자
 
                         <br />
                         <span

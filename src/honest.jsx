@@ -10,9 +10,6 @@ function Honest({ selectedItem, setSelectedItem }) {
                         자차 보유, 운전경력 10년, 운전면허 1종
                         <br />
                         <br />
-                        디자인에는 재능 없습니다.
-                        <br />
-                        <br />
                         사람들과 커뮤니케이션 원활 합니다.
                         <br />
                         <br />
