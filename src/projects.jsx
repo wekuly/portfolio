@@ -227,7 +227,7 @@ function Projects({ selectedItem, setSelectedItem }) {
                                     marginRight: "auto"
                                 }}
                             />
-                            <a href="https://wekuly.github.io/remember_game_image/" target="_blank" rel="noopener noreferrer">기억의 만찬 프로젝트 링크</a> <br />
+                            <a href="https://wekuly.github.io/remember_game2/" target="_blank" rel="noopener noreferrer">기억의 만찬 프로젝트 링크</a> <br />
 
                             <br />
                             <img
