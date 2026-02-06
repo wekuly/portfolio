@@ -30,22 +30,18 @@ function Intro({ selectedItem, setSelectedItem }) {
                         <br />
 
                         <span className={`intro-details-content-link-text ${showIntroDetailsContentLinkText ? 'show' : ''}`}>
-                            - LG 스탠바이미 기본 6종게임 中 2개(<b>체스, ANIMAL HIT</b>) 메인 개발자.
+                            - LG 스탠바이미 납품 게임 개발 <br />
+                            &nbsp;&nbsp;&nbsp;· 체스, 바둑, Animal Hit 등 다수 타이틀 메인 개발 담당 <br />
+                            &nbsp;&nbsp;&nbsp;· 기획 협업부터 구현, 배포까지 전 과정 참여 <br />
                             <br />
-                            이후 추가된 6종게임 中 <b>바둑</b> 메인 개발자
+                            - 부싯돌 게임 프로젝트 유지보수 및 업데이트 <br />
+                            &nbsp;&nbsp;&nbsp;· SS, KT, SKB 등 여러 플랫폼 납품 <br />
+                            &nbsp;&nbsp;&nbsp;· 골드타워 디펜스, 포커, 맞고, 바둑 등 라이브 서비스 운영 <br />
+                            &nbsp;&nbsp;&nbsp;· 신규 기능 추가 및 안정화 작업 수행 <br />
                             <br />
-                            프론트 : JS,JQuery
-                            <br />
-                            백엔드 : PHP, NodeJS, Maria DB
-                            <br />
-                            <br />
-                            부싯돌 게임 중
-                            <br />
-                            골드타워 디펜스 - 메인 개발자
-                            <br />
-                            포커, 맞고 ,바둑 등 다양한 게임 오류 수정 및 업데이트
-                            <br />
-                            유저의 오류제보 또는 데이터확인 등 문의메일 답변 및 오류 수정
+                            - 기술 스택 <br />
+                            &nbsp;&nbsp;&nbsp;· Frontend: JavaScript, jQuery <br />
+                            &nbsp;&nbsp;&nbsp;· Backend: PHP, Node.js, MariaDB <br />
                         </span>
                     </p>
 

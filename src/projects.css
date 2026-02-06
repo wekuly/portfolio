@@ -80,3 +80,34 @@
     color: #3498db;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
 }
+
+/* PC (769px 이상): 프로젝트 영역 더 크게 */
+@media (min-width: 769px) {
+    .project-item {
+        min-height: 140px;
+        padding: 2rem 1.5rem;
+        margin-bottom: 2.5rem;
+        border-radius: 8px;
+    }
+
+    .project-description-small {
+        font-size: 0.95rem;
+    }
+
+    .project-common-title {
+        font-size: 1.35rem;
+    }
+
+    .project-common-subtitle {
+        font-size: 1.75rem;
+    }
+
+    .project-common-all {
+        font-size: 0.9rem;
+    }
+
+    .project-common-all-Description-title,
+    .project-common-all-Achievements-title {
+        font-size: 1rem;
+    }
+}

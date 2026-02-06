@@ -182,6 +182,10 @@ body {
   /* 버튼 영역만큼 하단 패딩 추가 */
 }
 
+.intro-details {
+  text-align: left;
+}
+
 .intro-details-content-link {
   color: blue;
   cursor: pointer;
@@ -208,6 +212,10 @@ body {
   display: inline-block;
 }
 
+.skills-list {
+  text-align: left;
+}
+
 @keyframes float {
   0% {
     transform: translateY(0px) rotate(0deg);
@@ -222,6 +230,61 @@ body {
   }
 }
 
+/* ===== PC (769px 이상): 더 크게 표시 ===== */
+@media (min-width: 769px) {
+  .container {
+    max-width: 1200px;
+    padding: 1.5rem;
+  }
+
+  .content {
+    max-width: 720px;
+    min-height: 720px;
+    padding: 2rem;
+    border-radius: 20px;
+  }
+
+  .table-of-contents-list {
+    height: 480px;
+    gap: 2.5rem;
+  }
+
+  .table-of-contents-item-content-wrapper a {
+    font-size: 2.6rem;
+  }
+
+  .intro-section,
+  .skills-section,
+  .contact-section,
+  .honest-section,
+  .projects-section {
+    height: 660px;
+  }
+
+  .intro-details-content-link,
+  .intro-details-content-link-text {
+    font-size: 0.95rem;
+  }
+
+  .intro-section h2,
+  .skills-section h2,
+  .projects-section h2 {
+    font-size: 1.75em;
+  }
+
+  .intro-section h3,
+  .skills-section h3,
+  .projects-section h3 {
+    font-size: 1.25em;
+  }
+
+  .intro-section p,
+  .skills-section p {
+    font-size: 1.05rem;
+  }
+}
+
+/* ===== 모바일: 기존 유지 ===== */
 @media (max-width: 768px) {
   .container {
     padding: 0.5rem;

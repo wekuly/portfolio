@@ -6,6 +6,10 @@ import chess from './assets/chess.jpg'
 import animalhit from './assets/animalhit.jpg'
 import baduk from './assets/baduk.jpg'
 
+import remember_game2 from './assets/remeber_game2.jpg'
+import remember_game_image from './assets/remember_game_image.jpg'
+
+
 function Projects({ selectedItem, setSelectedItem }) {
     return (
         <div className="wrapper">
@@ -75,11 +79,11 @@ function Projects({ selectedItem, setSelectedItem }) {
                                 <br />
                                 확장성과 협업을 고려한 코드 구조 설계와 안정적인 서비스 운영을 위해 노력합니다.
                                 <br />
-                                웹 기반 게임 서비스의 메인 개발자로서
-                                AI 엔진 연동, 실시간 PVP 서버, 광고·결제 시스템,
-                                다중 플랫폼(LG·삼성·통신사) 납품까지 전 과정을 경험했습니다.
-                                확장성과 유지보수를 고려한 구조 설계와
-                                실제 수익 창출 및 서비스 운영 경험을 보유하고 있습니다.
+                                웹 기반 게임 서비스의 메인 개발자로서<br />
+                                AI 엔진 연동, 실시간 PVP 서버, 광고·결제 시스템,<br />
+                                다중 플랫폼(LG·삼성·통신사) 납품까지 전 과정을 경험했습니다.<br />
+                                확장성과 유지보수를 고려한 구조 설계와<br />
+                                실제 수익 창출 및 서비스 운영 경험을 보유하고 있습니다.<br />
                             </span>
                             <span className="project-common-title">공통</span>
                             <span className="project-common-subtitle">Frontend Development</span>
@@ -202,28 +206,68 @@ function Projects({ selectedItem, setSelectedItem }) {
                         </div>
                     </div>
                     <div className="project-item">
-                        <h3>토이 프로젝트</h3>
-                        <p className="project-period">2025.12 - 2026.01</p>
+                        <h3>개인 프로젝트</h3>
+                        <h3>기억의 만찬</h3>
+                        <p> 넷플릭스 콘텐츠에서 영감을 받아,
+                            사용자 간 상호작용과 실시간 상태 동기화를 중심으로 구현한 개인 프로젝트입니다. </p>
                         <p className="project-description">
-                            <a href="https://wekuly.github.io/cat_maker/" target="_blank" rel="noopener noreferrer">고양이 짤 생성기</a> <br />
-                            <a href="https://wekuly.github.io/household/" target="_blank" rel="noopener noreferrer">간단한 가계부</a> <br />
+                            <img
+                                src={remember_game_image}
+                                alt="기억의 만찬 프로젝트 썸네일"
+                                className="project-image"
+                                style={{
+                                    width: "60%",
+                                    height: "auto",
+                                    maxWidth: "320px",
+                                    marginBottom: "10px",
+                                    borderRadius: "8px",
+                                    boxShadow: "0 2px 8px rgba(0,0,0,0.07)",
+                                    display: "block",
+                                    marginLeft: "auto",
+                                    marginRight: "auto"
+                                }}
+                            />
+                            <a href="https://wekuly.github.io/remember_game_image/" target="_blank" rel="noopener noreferrer">기억의 만찬 프로젝트 링크</a> <br />
+
+                            <br />
+                            <img
+                                src={remember_game2}
+                                alt="기억의 만찬 프로젝트 썸네일"
+                                className="project-image"
+                                style={{
+                                    width: "60%",
+                                    height: "auto",
+                                    maxWidth: "320px",
+                                    marginBottom: "10px",
+                                    borderRadius: "8px",
+                                    boxShadow: "0 2px 8px rgba(0,0,0,0.07)",
+                                    display: "block",
+                                    marginLeft: "auto",
+                                    marginRight: "auto"
+                                }}
+                            />
+
+                            <a href="https://www.youtube.com/watch?v=BJDye26Bo1E" target="_blank" rel="noopener noreferrer">기억의 만찬 유튜브</a> <br />
+
                             <span className="project-description-small">
-                                React
                                 <br />
-                                로컬 스토리지
-                                <br />
-                                고양이사진 api
+                                TypeScript와 Vite 기반으로 클라이언트 구조를 구성하고,
+                                실시간 상태 동기화를 위해 Socket.IO와 Express를 활용한 서버를 직접 설계·구현했습니다.
+                                <br /><br />
+                                초기에는 Oracle Cloud Infrastructure 환경에서 서버를 구축하고
+                                PM2를 통해 프로세스 관리 및 운영을 경험했으며,
+                                이후 HTTPS 혼합 콘텐츠 이슈 해결과 배포 편의성을 고려하여 Railway로 배포 환경을 전환했습니다.
+
                             </span>
                         </p>
-                        <a href="https://github.com/wekuly/py_omok/releases/latest">
-                            Python GUI 오목 Github 링크
-                        </a>
-                        <a href="https://github.com/wekuly/py_omok/releases/download/1.0.0/main.exe">
-                            Python GUI 오목 실행파일 exe 다운로드
-                        </a>
+
+                        <h3> 본 포트폴리오 프로젝트</h3>
                         <span className="project-description-small">
-                            Python , Tkinter
-                            <br />
+                            재취업 준비 과정에서 React의 실전 경험을 쌓기 위해 <br />
+                            포트폴리오 사이트를 직접 구현했습니다. <br />
+                            컴포넌트 분리, 상태 관리, 재사용성을 고려한 구조를 중심으로 <br />
+                            유지보수와 확장에 용이한 형태로 설계했습니다. <br />
+
                         </span>
                     </div>
                 </div>
